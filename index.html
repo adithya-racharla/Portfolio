@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adithya Racharla — Portfolio</title>
+<meta name="description" content="Portfolio of Adithya Racharla — frontend developer and UI/UX designer based in Hyderabad, India.">
+<meta name="theme-color" content="#0E9B8E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Adithya<span class="accent">.</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a href="Adithya_Racharla_Resume.pdf" target="_blank" rel="noopener" class="nav-resume">Resume</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Adithya Racharla</h1>
+        <div class="role-cycle"><span id="roleText">Web Developer</span></div>
+        <p class="hero-intro">Building clean interfaces from Hyderabad, India.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <p class="availability"><span class="dot"></span> Open to internships</p>
+      </div>
+
+      <div class="hero-photo reveal">
+        <div class="photo-frame">
+          <!-- Replace this div with: <img src="your-photo.jpg" alt="Adithya Racharla"> -->
+          <div class="photo-placeholder">AR</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow">About</p>
+      <h2>A bit about me</h2>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>"I'm a Computer Science undergraduate with hands-on experience in web development, UI/UX design, and graphic design. I enjoy building clean, functional projects that solve real problems — whether that's writing the code, designing the interface, or both. I'm passionate about the craft and always looking to grow in a professional environment where I can keep learning and contribute meaningfully."
+</p>
+          <blockquote class="philosophy">"I don't stop at making it work. I make it work beautifully."</blockquote>
+        </div>
+
+        <div class="about-side reveal">
+          <div class="info-block">
+            <h3>Languages</h3>
+            <ul class="lang-list">
+              <li>
+                <span class="lang-name">Telugu</span>
+                <span class="lang-bar">
+                  <span class="seg filled"></span><span class="seg filled"></span><span class="seg filled"></span><span class="seg filled"></span><span class="seg filled"></span>
+                </span>
+                <span class="lang-note">Native</span>
+              </li>
+              <li>
+                <span class="lang-name">Hindi</span>
+                <span class="lang-bar">
+                  <span class="seg filled"></span><span class="seg filled"></span><span class="seg filled"></span><span class="seg filled"></span><span class="seg filled"></span>
+                </span>
+              </li>
+              <li>
+                <span class="lang-name">English</span>
+                <span class="lang-bar">
+                  <span class="seg filled"></span><span class="seg filled"></span><span class="seg filled"></span><span class="seg"></span><span class="seg"></span>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="info-block">
+            <h3>Interests</h3>
+            <div class="tags">
+              <span>Indian Mythology</span>
+              <span>Dancing</span>
+              <span>Art</span>
+              <span>Music</span>
+              <span>Exploring New Things</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience ===== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <p class="eyebrow">Experience</p>
+      <h2>Where I've worked</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Graphic Design Intern</h3>
+              <span class="timeline-date">Jun – Sep 2025</span>
+            </div>
+            <p class="timeline-company">GaoTek Inc. · Canada (Remote)</p>
+            <ul>
+              <li>Designed visual content including graphics, logos, and promotional materials for websites and marketing campaigns.</li>
+              <li>Progressed from Intern to Assistant Team Lead to Team Lead, earning promotions through consistent quality and reliability.</li>
+              <li>Led the design team, coordinating multiple concurrent projects to ensure timely, high-quality delivery.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow">Projects</p>
+      <h2>Things I've built</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card featured reveal">
+          <span class="badge">Featured</span>
+          <div class="project-body">
+            <p class="project-type">AI · Prompt Engineering</p>
+            <h3>AI Disaster Alert Platform</h3>
+            <p>An early-warning concept platform — I used prompt engineering to architect how an AI model monitors data and turns it into clear, real-time disaster alerts.</p>
+            <div class="tags">
+              <span>AI</span>
+              <span>Prompt Engineering</span>
+              <span>Concept</span>
+            </div>
+          </div>
+          <a href="https://app-7ohd5n562xhd.appmedo.com/" target="_blank" rel="noopener" class="project-link">
+            View live demo
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-body">
+            <p class="project-type">Frontend</p>
+            <h3>EcoFlow</h3>
+            <p>A fully responsive landing page for an air-purification startup — animated sections, pricing tiers, and an FAQ that doesn't feel bolted on.</p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <a href="https://ecoflowwww.netlify.app/" target="_blank" rel="noopener" class="project-link">
+            View live site
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-body">
+            <p class="project-type">Full-Stack</p>
+            <h3>ExpenseIQ</h3>
+            <p>A personal finance tracker — log expenses, sort them into categories, watch monthly trends on a chart, and export it all to CSV.</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>Flask</span>
+              <span>SQLite</span>
+            </div>
+          </div>
+          <a href="https://expense-iq-j674.onrender.com/" target="_blank" rel="noopener" class="project-link">
+            View live site
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-body">
+            <p class="project-type">UI/UX Design</p>
+            <h3>Food Delivery App — UI/UX</h3>
+            <p>A complete food-delivery app designed in 24 hours for the SkillHigh Live Hackathon — user flows, components, and visual design from scratch.</p>
+            <div class="tags">
+              <span>Figma</span>
+              <span>Hackathon</span>
+            </div>
+          </div>
+          <a href="https://www.figma.com/proto/YPXvewgLjvnC1rNC8K8gMp/Food-Delivery-App?node-id=0-1&t=o14f8qHEzZkLhLNH-1" target="_blank" rel="noopener" class="project-link">
+            View design
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <p class="eyebrow">Skills</p>
+      <h2>What I work with</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3>Languages</h3>
+          <div class="tags">
+            <span>C</span><span>Java</span><span>Python</span><span>JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Web</h3>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>Flask</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Database</h3>
+          <div class="tags">
+            <span>MySQL</span><span>SQLite</span><span>Oracle SQL</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Design</h3>
+          <div class="tags">
+            <span>Figma</span><span>Visual Design</span><span>Graphic Design</span><span>Frontend Design</span><span>Prompt Engineering</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Tools</h3>
+          <div class="tags">
+            <span>Git</span><span>GitHub</span><span>VS Code</span><span>Sublime Text</span><span>Netlify</span><span>Render</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Coursework</h3>
+          <div class="tags">
+            <span>Data Structures</span><span>Operating Systems</span><span>Computer Networks</span><span>DBMS</span><span>OOP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <p class="eyebrow">Education</p>
+      <h2>Academic background</h2>
+
+      <div class="edu-list">
+        <div class="edu-item reveal">
+          <div class="edu-head">
+            <h3>Bachelor of Science (BS), Computer Science</h3>
+            <span class="edu-date">2023 – Present</span>
+          </div>
+          <p class="edu-meta">Vishwa Vishwani Institute of Systems and Management, Telangana, India</p>
+        </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-head">
+            <h3>Intermediate – MPC</h3>
+            <span class="edu-date">Apr 2023</span>
+          </div>
+          <p class="edu-meta">Dr. B. R. Ambedkar Junior College, Telangana, India</p>
+
+          <div class="highlight-box">
+            <svg class="medal-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="15" r="5"/><path d="M9 10L7 3M15 10l2-7M9 3h6"/></svg>
+            <p><strong>Gold Medal — State Rank</strong>, Intermediate 1st Year (2022), awarded by the then Governor of Telangana, Tamilisai Soundararajan.</p>
+          </div>
+        </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-head">
+            <h3>SSC (10th Grade)</h3>
+            <span class="edu-date">2021</span>
+          </div>
+          <p class="edu-meta">The Mother's VidyaNiketan High School, Telangana, India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Certifications & Programs ===== -->
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Certifications</p>
+      <h2>Courses &amp; programs</h2>
+
+      <div class="cert-columns">
+        <div class="cert-col reveal">
+          <h3>Certifications</h3>
+          <ul class="cert-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Python — myCaptain</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Web Development — myCaptain</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>C Programming — Infosys Springboard</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>C Programming — Skill Sigma</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Database with Oracle SQL — Skill Sigma</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Artificial Intelligence — IBM SkillsBuild</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Customer Engagement — IBM SkillsBuild</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Fundamentals of AI — Wadhwani Foundation</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Online Communication — Wadhwani Foundation</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Data Security — Wadhwani Foundation</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Work Productivity Tools — Wadhwani Foundation</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Self Presentation (Advanced) — Wadhwani Foundation</li>
+          </ul>
+        </div>
+
+        <div class="cert-col reveal">
+          <h3>Programs &amp; Internships</h3>
+          <ul class="cert-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>3-Month Internship Program, Digital Marketing (Team Lead) — GAOTek Inc.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>3-Month Internship Program, Graphic Design (Team Lead) — GAOTek Inc.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>24-Hour Live Hackathon — SkillHigh</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-grid">
+      <div class="contact-text reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build something</h2>
+        <p>"Currently seeking internship opportunities. Let's connect — I'd be happy to hear from you."</p>
+
+        <div class="contact-links">
+          <a href="mailto:adithyaracharla1998@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            adithyaracharla1998@gmail.com
+          </a>
+          <a href="tel:+917207861467">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 2.5a11 11 0 005 5L14 14l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
+            +91 72078 61467
+          </a>
+          <a href="https://github.com/adithya-racharla" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.26c0 5.42 3.44 10.02 8.21 11.64.6.11.82-.27.82-.6 0-.29-.01-1.04-.02-2.04-3.34.74-4.04-1.64-4.04-1.64-.55-1.43-1.34-1.81-1.34-1.81-1.09-.77.08-.75.08-.75 1.21.09 1.84 1.27 1.84 1.27 1.07 1.87 2.81 1.33 3.49 1.02.11-.78.41-1.33.74-1.63-2.67-.31-5.47-1.38-5.47-6.15 0-1.36.47-2.47 1.25-3.34-.13-.31-.54-1.57.12-3.27 0 0 1.02-.33 3.34 1.27a11.4 11.4 0 016.08 0c2.32-1.6 3.34-1.27 3.34-1.27.66 1.7.25 2.96.12 3.27.78.87 1.25 1.98 1.25 3.34 0 4.78-2.8 5.84-5.48 6.15.43.38.81 1.13.81 2.28 0 1.65-.01 2.98-.01 3.39 0 .33.22.72.83.6A12.27 12.27 0 0024 12.26C24 5.5 18.63 0 12 0z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/adithya-racharla-805b41301" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 110-4.14 2.07 2.07 0 010 4.14zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-cta reveal">
+        <a href="https://wa.me/917207861467" target="_blank" rel="noopener" class="whatsapp-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.83.5 3.6 1.45 5.15L2 22l5.1-1.54a9.9 9.9 0 004.94 1.31h.01c5.46 0 9.91-4.45 9.91-9.91A9.86 9.86 0 0012.04 2zm0 18.06h-.01a8.2 8.2 0 01-4.18-1.14l-.3-.18-3.02.91.92-2.94-.2-.31a8.2 8.2 0 01-1.27-4.48c0-4.55 3.7-8.25 8.26-8.25a8.22 8.22 0 015.84 2.42 8.18 8.18 0 012.4 5.83c0 4.56-3.7 8.14-8.24 8.14zm4.52-6.16c-.25-.12-1.45-.71-1.67-.79-.22-.08-.39-.12-.55.12-.16.25-.63.79-.78.95-.14.16-.29.18-.53.06-1.45-.72-2.4-1.29-3.36-2.92-.25-.43.25-.4.72-1.33.08-.16.04-.3-.04-.43-.08-.12-.55-1.33-.76-1.82-.2-.48-.4-.42-.55-.43-.14-.01-.3-.01-.46-.01-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.66 2.54 4.03 3.46 2.37.92 2.37.61 2.8.57.43-.04 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28z"/></svg>
+          Chat on WhatsApp
+        </a>
+        <a href="Adithya_Racharla_Resume.pdf" download class="btn btn-outline download-resume">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+          Download Resume
+        </a>
+        <p class="contact-cta-note">Usually replies within a day.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Adithya Racharla</p>
+      <a href="#home" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
