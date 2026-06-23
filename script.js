@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------- Hero role cycler ---------- */
   const roleText = document.getElementById('roleText');
-  const roles = ['Web Developer', 'Web Designer', 'Visuals & Graphics Designer', 'Frontend Developer / Designer', 'UI/UX Designer'];
+  const roles = ['Web Developer', 'Web Designer', 'Visual & Graphic Designer', 'Frontend Developer / Designer', 'UI/UX Designer'];
   let roleIndex = 0;
 
   if (roleText && !reduceMotion) {
